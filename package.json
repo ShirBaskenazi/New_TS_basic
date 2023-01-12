@@ -1,0 +1,24 @@
+{
+  "name": "new_ts_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "start": "node dist/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShirBaskenazi/New_TS_basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShirBaskenazi/New_TS_basic/issues"
+  },
+  "homepage": "https://github.com/ShirBaskenazi/New_TS_basic#readme",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,13 +1,13 @@
-function getAverage (arr:number[]): number{
+let getAverage =((arr:number[]): number=>{
     let sum:number =0;
     arr.forEach((value)=>{
         sum= sum+value;
     })
     return sum/arr.length;
-}
-alert(getAverage([23,43,53]));
+})
+console.log(getAverage([23,43,53]));
 
-function getAmountOfPositive(arr:number[]):number{
+let getAmountOfPositive=(arr:number[]):number=>{
     let countOfP:number=0;
     arr.forEach((value)=>{
         if (value>0){
@@ -16,7 +16,8 @@ function getAmountOfPositive(arr:number[]):number{
     })
     return countOfP;
 }
-alert(getAmountOfPositive([23,43,53,-78,64,-87]));
-function sortList(arr:number[]){
+console.log(getAmountOfPositive([23,43,53,-78,64,-87]));
+let sortList=(arr:number[])=>{
     return arr.sort();
 }
+console.log(sortList([23,43,53,-78,64,-87]));
