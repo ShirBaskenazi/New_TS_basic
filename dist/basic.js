@@ -1,13 +1,13 @@
 "use strict";
-function getAverage(arr) {
+let getAverage = ((arr) => {
     let sum = 0;
     arr.forEach((value) => {
         sum = sum + value;
     });
     return sum / arr.length;
-}
-alert(getAverage([23, 43, 53]));
-function getAmountOfPositive(arr) {
+});
+console.log(getAverage([23, 43, 53]));
+let getAmountOfPositive = (arr) => {
     let countOfP = 0;
     arr.forEach((value) => {
         if (value > 0) {
@@ -15,8 +15,9 @@ function getAmountOfPositive(arr) {
         }
     });
     return countOfP;
-}
-alert(getAmountOfPositive([23, 43, 53, -78, 64, -87]));
-function sortList(arr) {
+};
+console.log(getAmountOfPositive([23, 43, 53, -78, 64, -87]));
+let sortList = (arr) => {
     return arr.sort();
-}
+};
+console.log(sortList([23, 43, 53, -78, 64, -87]));
